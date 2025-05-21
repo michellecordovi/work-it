@@ -1,6 +1,19 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
 body {
 	background-color: white;
 	color: #24053e;
+}
+
+h1{
+    font-size: 80px;
+    margin-bottom: 40px;
+    font-family: 'Fraunces', 'Times New Roman', Times, serif;
+    font-weight: 400px;
 }
 
 button {
@@ -18,10 +31,11 @@ header {
 	background-color: #24053e;
 	color: white;
     height: 771px;
+    padding: 0px 80px 0px;
 }
 
 nav{
-    padding: 56px 80px 0px;
+    padding-top: 56px;
     display: flex;
     justify-content:space-between;
     align-items: flex-end;
@@ -32,7 +46,11 @@ header button {
 	width: 162px;
 }
 
-
+.header-text{
+    width: 50%;
+    margin: 56px auto 0px;
+    text-align: center;
+}
 
 
 /* footer */
