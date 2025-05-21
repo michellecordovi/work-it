@@ -1,0 +1,44 @@
+body {
+	background-color: white;
+	color: #24053e;
+}
+
+button {
+	background-color: #44ffa1;
+	color: #24053e;
+}
+
+.logo{
+    height: 24px;
+}
+
+
+/* HEADER */
+header {
+	background-color: #24053e;
+	color: white;
+    height: 771px;
+}
+
+nav{
+    padding: 56px 80px 0px;
+    display: flex;
+    justify-content:space-between;
+    align-items: flex-end;
+}
+
+header button {
+	height: 56px;
+	width: 162px;
+}
+
+
+
+
+/* footer */
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
