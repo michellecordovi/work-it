@@ -8,7 +8,7 @@ body {
 	background-color: white;
 	color: #24053e;
     width: 100vw;
-    overflow: hidden;
+    overflow-x: hidden;
 }
 
 h1 {
@@ -89,6 +89,43 @@ header button {
     margin-bottom: 300px;
 	text-align: center;
 }
+
+/* SERVICES SECTION */
+#services-section{
+    padding: 250px 0px 144px;
+    position: relative;
+    top: -100px;
+    background-color: #FCF8FF;
+    z-index: -1;
+    margin: 0 -50%;
+	border-bottom-left-radius: 100%;
+	border-bottom-right-radius: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#services-grid{
+    width: 100vw;
+    padding: 0px 80px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 2rem;
+    text-align: center;
+}
+
+/* #oval{
+    min-width: 150vw;
+    height: 100px;
+    margin: 0px -50%;
+    border-bottom-left-radius: 300%;
+    border-bottom-right-radius: 300%;
+    background-color:#24053e;
+    position: absolute;
+    left: 25%
+} */
+
 
 /* footer */
 footer {
