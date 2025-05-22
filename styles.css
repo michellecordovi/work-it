@@ -11,11 +11,18 @@ body {
     overflow-x: hidden;
 }
 
+h1, h2, h3, h4, h5{
+    font-family: "Fraunces", "Times New Roman", Times, serif;
+	font-weight: 500;
+}
+
+p, button{
+    font-family: 'Manrope', Arial, Helvetica, sans-serif;
+}
+
 h1 {
 	font-size: 80px;
 	margin-bottom: 40px;
-	font-family: "Fraunces", "Times New Roman", Times, serif;
-	font-weight: 400px;
 }
 
 button {
@@ -115,16 +122,19 @@ header button {
     text-align: center;
 }
 
-/* #oval{
-    min-width: 150vw;
-    height: 100px;
-    margin: 0px -50%;
-    border-bottom-left-radius: 300%;
-    border-bottom-right-radius: 300%;
-    background-color:#24053e;
-    position: absolute;
-    left: 25%
-} */
+.service-number{
+    font-family: 'Fraunces', 'Times New Roman', Times, serif;
+    font-size: 24px;
+    font-weight: 400;
+    border: 1px solid #24053e;
+    height: 54px;
+    width: 54px;
+    margin: 0px auto 56px;
+    border-radius: 100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
 
 
 /* footer */
