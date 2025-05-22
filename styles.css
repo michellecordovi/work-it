@@ -179,4 +179,16 @@ footer {
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+    padding: 112px 80px;
+
+    .logo{
+        margin-bottom: 32px;
+    }
 }
+
+.socials{
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   column-gap: 1rem;
+}
+
