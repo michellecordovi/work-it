@@ -31,9 +31,26 @@ h2{
     margin-bottom: 32px;
 }
 
+p{
+    line-height: 180%;
+}
+
 button {
 	background-color: #44ffa1;
+    width: max-content;
 	color: #24053e;
+    padding: 12px 32px;
+    border: none;
+    line-height: 150%;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.secondary-button{
+    background-color: transparent;
+    padding: 12px 0px;
+    color: white;
+    border-bottom: 3px solid #44ffa1;
 }
 
 .logo {
@@ -62,11 +79,6 @@ nav {
 	align-items: flex-end;
     max-width: 100vw;
     padding: 56px 80px 0px;
-}
-
-header button {
-	height: 56px;
-	width: 162px;
 }
 
 .header-img{
