@@ -200,6 +200,21 @@ nav {
     }
 }
 
+@media only screen and (max-width: 600px){
+    .service{
+        display:block;
+        text-align: center;
+
+         h3{
+            margin-bottom: 16px;
+        }
+    }
+
+    .service-number{
+        margin: 0px auto 24px;
+    }
+}
+
 /* CONTACT SECTRION */
 #contact-section{
     padding: 0px 80px;
