@@ -49,6 +49,7 @@ button {
     line-height: 150%;
     font-weight: 600;
     cursor: pointer;
+    border: 1px solid #44ffa1;
 }
 
 button:hover{
@@ -61,6 +62,7 @@ button:hover{
     background-color: transparent;
     padding: 12px 0px;
     color: white;
+    border: none;
     border-bottom: 3px solid #44ffa1;
 }
 
@@ -180,7 +182,7 @@ nav {
     margin: 0px auto;
     display: grid;
     grid-template-columns: repeat(16, 1fr);
-    
+    position: relative;
 }
 
 #contact-box{
@@ -192,6 +194,11 @@ nav {
 
     p{
         margin-bottom: 32px;
+    }
+
+    #contact-section-circles{
+        position: absolute;
+        right: 10%;
     }
 }
 
