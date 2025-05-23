@@ -177,6 +177,29 @@ nav {
     align-items: center;
 }
 
+@media only screen and (max-width: 900px){
+    #services-grid{
+        grid-template-columns: 1fr;
+        padding: 0px 44px;
+        column-gap: 0rem;
+        row-gap: 32px;
+        text-align: left;
+        align-items: center;
+    }
+
+    .service{
+        display: grid;
+        grid-template-columns: auto auto;
+        column-gap: 56px;
+    }
+
+    .service-number{
+        grid-row: 1/span 2;
+        align-self: center;
+        margin: 0px;
+    }
+}
+
 /* CONTACT SECTRION */
 #contact-section{
     padding: 0px 80px;
