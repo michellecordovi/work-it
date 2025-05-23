@@ -46,10 +46,22 @@ button {
     cursor: pointer;
 }
 
+button:hover{
+    background-color: transparent;
+    color: #44ffa1;
+    border: 1px solid #44ffa1;
+}
+
 .secondary-button{
     background-color: transparent;
     padding: 12px 0px;
     color: white;
+    border-bottom: 3px solid #44ffa1;
+}
+
+.secondary-button:hover{
+    color:#44ffa1;
+    border: none;
     border-bottom: 3px solid #44ffa1;
 }
 
@@ -93,6 +105,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    z-index: -15;
 }
 
 #header-circle1{
